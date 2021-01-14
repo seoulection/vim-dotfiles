@@ -9,11 +9,13 @@ Plug 'ap/vim-buftabline'
 Plug 'tpope/vim-fugitive'
 Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'}
+Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release/rpc' }
 Plug 'autozimu/LanguageClient-neovim', {'branch': 'next', 'do': 'bash install.sh'}
 Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
 Plug 'mtth/scratch.vim', {'on': 'Scratch'}
 Plug 'machakann/vim-highlightedyank'
 Plug 'reedes/vim-wordy'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " languages
 Plug 'guns/vim-clojure-static',  {'for': 'clojure'}
