@@ -110,6 +110,9 @@ noremap k gk
 noremap gj j
 noremap gk k
 
+" open terminal belowright
+nnoremap <C-t> :belowright term<cr>
+
 " clean trailing whitespace
 nnoremap <leader>w mz:%s/\s\+$//<cr>:let @/=''<cr>`z
 
