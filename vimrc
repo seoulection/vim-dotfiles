@@ -29,6 +29,7 @@ set lazyredraw
 set cursorline
 set wrap
 set noswapfile
+set relativenumber
 
 nmap , \
 
