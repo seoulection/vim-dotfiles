@@ -1,3 +1,4 @@
+packloadall
 set nocompatible
 
 " source plugins
@@ -144,3 +145,6 @@ noremap <leader>ff :update<CR>:e ++ff=dos<CR>:setlocal ff=unix<CR>:w<CR>
 
 " ruby rocket
 imap <C-L> <SPACE>=><SPACE>
+
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
