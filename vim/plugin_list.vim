@@ -18,7 +18,7 @@ Plug 'reedes/vim-wordy'
 
 " languages
 Plug 'guns/vim-clojure-static',  {'for': 'clojure'}
-Plug 'elixir-lang/vim-elixir',   {'for': 'elixir'}
+Plug 'elixir-editors/vim-elixir'
 Plug 'fatih/vim-go',             {'for': 'go'}
 Plug 'fatih/vim-hclfmt',         {'for': ['hcl', 'nomad', 'tf']}
 Plug 'pangloss/vim-javascript',  {'for': 'javascript'}
