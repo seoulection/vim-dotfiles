@@ -30,7 +30,6 @@ set lazyredraw
 set cursorline
 set wrap
 set noswapfile
-set relativenumber
 
 nmap , \
 
@@ -113,6 +112,12 @@ noremap gk k
 
 " open terminal belowright
 nnoremap <C-t> :belowright term<cr>
+
+" toggle NERDTree in current buffer
+nnoremap <C-o> :NERDTreeToggle %<cr>
+
+" toggle NERDTree in current directory
+nnoremap <C-i> :NERDTreeToggle<cr>
 
 " clean trailing whitespace
 nnoremap <leader>w mz:%s/\s\+$//<cr>:let @/=''<cr>`z
