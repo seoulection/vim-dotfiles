@@ -3,3 +3,4 @@
 .netrwhist
 vim/plugin/vim_hardtime.vim
 vim/plugged
+vim/undodir/
