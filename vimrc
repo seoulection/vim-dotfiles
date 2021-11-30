@@ -153,3 +153,4 @@ imap <C-L> <SPACE>=><SPACE>
 
 let g:prettier#autoformat = 1
 let g:prettier#autoformat_require_pragma = 0
+let g:ale_fixers = { 'elixir': ['mix_format'] }

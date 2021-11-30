@@ -2,7 +2,7 @@ call plug#begin('~/.vim/plugged')
 
 " tools
 Plug 'mileszs/ack.vim'
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 Plug 'Shougo/deoplete.nvim', {'do': 'pip3 install --user pynvim'}
 Plug 'roxma/nvim-yarp'
 Plug 'ap/vim-buftabline'
