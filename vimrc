@@ -104,6 +104,22 @@ vnoremap <down> <nop>
 vnoremap <left> <nop>
 vnoremap <right> <nop>
 
+" autocomplete blocks
+" inoremap " ""<left>
+" inoremap ' ''<left>
+" inoremap ( ()<left>
+" inoremap [ []<left>
+" inoremap { {}<left>
+" inoremap < <><left>
+" inoremap {<CR> {<CR>}<ESC>O
+" inoremap {;<CR> {<CR>};<ESC>O
+
+" skip over closing blocks
+" inoremap <expr> ) getline('.')[col('.')-1] == ")" ? "\<Right>" : ")"
+" inoremap <expr> ] getline('.')[col('.')-1] == "]" ? "\<Right>" : "]"
+" inoremap <expr> } getline('.')[col('.')-1] == "}" ? "\<Right>" : "}"
+" inoremap <expr> > getline('.')[col('.')-1] == ">" ? "\<Right>" : ">"
+
 " navigate within wrapped line
 noremap j gj
 noremap k gk
