@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
 
 " tools
 Plug 'Shougo/deoplete.nvim', {'do': 'pip3 install --user pynvim'}
+Plug 'Yggdroot/indentLine'
 Plug 'ap/vim-buftabline'
 Plug 'autozimu/LanguageClient-neovim', {'branch': 'next', 'do': 'bash install.sh'}
 Plug 'dense-analysis/ale'

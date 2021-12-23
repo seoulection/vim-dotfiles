@@ -171,3 +171,5 @@ let g:prettier#autoformat = 1
 let g:prettier#autoformat_require_pragma = 0
 let g:ale_fixers = { 'elixir': ['mix_format'] }
 let g:ale_fix_on_save = 1
+let g:indentLine_char = '|'
+let g:indentLine_color_term = 45
