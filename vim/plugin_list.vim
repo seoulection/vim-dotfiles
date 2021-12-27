@@ -20,7 +20,7 @@ Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
 Plug 'tpope/vim-fugitive'
 
 " languages
-Plug 'cespare/vim-toml',         {'for': 'toml'}
+Plug 'cespare/vim-toml',         {'branch': 'main'}
 Plug 'elixir-editors/vim-elixir'
 Plug 'fatih/vim-go',             {'for': 'go'}
 Plug 'fatih/vim-hclfmt',         {'for': ['hcl', 'nomad', 'tf']}
