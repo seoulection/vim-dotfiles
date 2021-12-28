@@ -31,7 +31,7 @@ Plug 'pangloss/vim-javascript',  {'for': 'javascript'}
 Plug 'peitalin/vim-jsx-typescript', {'for': ['tsx', 'typescript']}
 Plug 'rust-lang/rust.vim',       {'for': 'rust'}
 Plug 'sl4m/swift.vim',           {'for': 'swift', 'branch': 'vim-only'}
-Plug 'tpope/vim-endwise',        {'for': 'ruby'}
+Plug 'tpope/vim-endwise',
 Plug 'vim-ruby/vim-ruby',        {'for': 'ruby'}
 
 " misc
