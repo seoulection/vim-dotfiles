@@ -32,6 +32,8 @@ Plug 'peitalin/vim-jsx-typescript', {'for': ['tsx', 'typescript']}
 Plug 'rust-lang/rust.vim',       {'for': 'rust'}
 Plug 'sl4m/swift.vim',           {'for': 'swift', 'branch': 'vim-only'}
 Plug 'tpope/vim-endwise',
+Plug 'tpope/vim-repeat',
+Plug 'tpope/vim-surround',
 Plug 'vim-ruby/vim-ruby',        {'for': 'ruby'}
 
 " misc
