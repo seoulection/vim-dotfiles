@@ -6,7 +6,6 @@ Plug 'Yggdroot/indentLine'
 Plug 'ap/vim-buftabline'
 Plug 'autozimu/LanguageClient-neovim', {'branch': 'next', 'do': 'bash install.sh'}
 Plug 'dense-analysis/ale'
-Plug 'elixir-lsp/coc-elixir', {'do': 'yarn install && yarn prepack'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'machakann/vim-highlightedyank'
@@ -22,15 +21,11 @@ Plug 'tpope/vim-fugitive'
 " languages
 Plug 'cespare/vim-toml',         {'branch': 'main'}
 Plug 'elixir-editors/vim-elixir'
-Plug 'fatih/vim-go',             {'for': 'go'}
-Plug 'fatih/vim-hclfmt',         {'for': ['hcl', 'nomad', 'tf']}
-Plug 'guns/vim-clojure-static',  {'for': 'clojure'}
 Plug 'kana/vim-vspec',           {'for': 'vim'}
 Plug 'maxmellon/vim-jsx-pretty', {'for': 'javascript'}
 Plug 'pangloss/vim-javascript',  {'for': 'javascript'}
 Plug 'peitalin/vim-jsx-typescript', {'for': ['tsx', 'typescript']}
 Plug 'rust-lang/rust.vim',       {'for': 'rust'}
-Plug 'sl4m/swift.vim',           {'for': 'swift', 'branch': 'vim-only'}
 Plug 'tpope/vim-endwise',
 Plug 'tpope/vim-repeat',
 Plug 'tpope/vim-surround',
