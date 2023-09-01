@@ -173,3 +173,11 @@ let g:prettier#autoformat_require_pragma = 0
 let g:ale_fixers = { 'elixir': ['mix_format'] }
 let g:ale_fix_on_save = 1
 let g:indentLine_char = '|'
+
+" elixir stuff
+au BufRead,BufNewFile *.ex,*.exs set filetype=elixir
+au BufRead,BufNewFile *.eex,*.heex,*.leex,*.sface,*.lexs set filetype=eelixir
+au BufRead,BufNewFile mix.lock set filetype=elixir
+
+" FU mouse
+set mouse=
