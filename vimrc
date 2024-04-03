@@ -168,10 +168,10 @@ noremap <leader>ff :update<CR>:e ++ff=dos<CR>:setlocal ff=unix<CR>:w<CR>
 " ruby rocket
 imap <C-L> <SPACE>=><SPACE>
 
-let g:prettier#autoformat = 1
-let g:prettier#autoformat_require_pragma = 0
+" let g:prettier#autoformat = 1
+" let g:prettier#autoformat_require_pragma = 0
 let g:ale_fixers = { 'elixir': ['mix_format'] }
-let g:ale_fix_on_save = 1
+" let g:ale_fix_on_save = 1
 let g:indentLine_char = '|'
 
 " elixir stuff
