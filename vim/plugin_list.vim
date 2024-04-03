@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'vim-ruby/vim-ruby',        {'for': 'ruby'}
 " Plug 'takac/vim-hardtime'
 " Plug 'morhetz/gruvbox'
+" Plug 'reedes/vim-wordy'
 
 " tools
 Plug 'Yggdroot/indentLine'
@@ -22,17 +23,17 @@ Plug 'junegunn/fzf.vim'
 Plug 'machakann/vim-highlightedyank'
 Plug 'mtth/scratch.vim', {'on': 'Scratch'}
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
-Plug 'reedes/vim-wordy'
 Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
+Plug 'tmsvg/pear-tree'
 Plug 'tpope/vim-fugitive'
 
 " languages
 Plug 'pangloss/vim-javascript',  {'for': 'javascript'}
 Plug 'peitalin/vim-jsx-typescript', {'for': ['tsx', 'typescript']}
 Plug 'rust-lang/rust.vim',       {'for': 'rust'}
-Plug 'tpope/vim-endwise',
-Plug 'tpope/vim-repeat',
-Plug 'tpope/vim-surround',
+" Plug 'tpope/vim-endwise'
+" Plug 'tpope/vim-repeat'
+" Plug 'tpope/vim-surround'
 
 " misc
 Plug 'prettier/vim-prettier', {

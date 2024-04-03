@@ -105,22 +105,6 @@ vnoremap <down> <nop>
 vnoremap <left> <nop>
 vnoremap <right> <nop>
 
-" autocomplete blocks
-" inoremap " ""<left>
-" inoremap ' ''<left>
-" inoremap ( ()<left>
-" inoremap [ []<left>
-" inoremap { {}<left>
-" inoremap < <><left>
-" inoremap {<CR> {<CR>}<ESC>O
-" inoremap {;<CR> {<CR>};<ESC>O
-
-" skip over closing blocks
-" inoremap <expr> ) getline('.')[col('.')-1] == ")" ? "\<Right>" : ")"
-" inoremap <expr> ] getline('.')[col('.')-1] == "]" ? "\<Right>" : "]"
-" inoremap <expr> } getline('.')[col('.')-1] == "}" ? "\<Right>" : "}"
-" inoremap <expr> > getline('.')[col('.')-1] == ">" ? "\<Right>" : ">"
-
 " navigate within wrapped line
 noremap j gj
 noremap k gk
@@ -170,8 +154,8 @@ imap <C-L> <SPACE>=><SPACE>
 
 " let g:prettier#autoformat = 1
 " let g:prettier#autoformat_require_pragma = 0
-let g:ale_fixers = { 'elixir': ['mix_format'] }
-" let g:ale_fix_on_save = 1
+let g:ale_fixers = { 'elixir': ['mix_format'], 'typescriptreact': ['prettier', 'eslint'], 'javascript': ['prettier', 'eslint'], 'typescript': ['prettier', 'eslint'] }
+let g:ale_fix_on_save = 1
 let g:indentLine_char = '|'
 
 " elixir stuff
