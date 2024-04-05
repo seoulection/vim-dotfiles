@@ -6,7 +6,6 @@ call plug#begin('~/.vim/plugged')
 " Plug 'roxma/nvim-yarp'
 " Plug 'roxma/vim-hug-neovim-rpc'
 " Plug 'cespare/vim-toml',         {'branch': 'main'}
-" Plug 'elixir-editors/vim-elixir'
 " Plug 'kana/vim-vspec',           {'for': 'vim'}
 " Plug 'maxmellon/vim-jsx-pretty', {'for': 'javascript'}
 " Plug 'vim-ruby/vim-ruby',        {'for': 'ruby'}
@@ -28,6 +27,7 @@ Plug 'tmsvg/pear-tree'
 Plug 'tpope/vim-fugitive'
 
 " languages
+Plug 'elixir-editors/vim-elixir'
 Plug 'pangloss/vim-javascript',  {'for': 'javascript'}
 Plug 'peitalin/vim-jsx-typescript', {'for': ['tsx', 'typescript']}
 Plug 'rust-lang/rust.vim',       {'for': 'rust'}
